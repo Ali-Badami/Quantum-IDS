@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "experiment_name": "QSVM_vs_Classical_SVM_Benchmark",
+    "dataset": "SWaT (Secure Water Treatment)",
+    "task": "Intrusion Detection (Binary Classification)",
+    "timestamp": "2026-01-16T14:55:11.248917",
+    "total_execution_time_seconds": 14.332628011703491,
+    "random_seed": 42
+  },
+  "quantum_configuration": {
+    "feature_map": "ZZFeatureMap",
+    "n_qubits": 8,
+    "repetitions": 2,
+    "entanglement": "linear",
+    "kernel_type": "FidelityStatevectorKernel"
+  },
+  "data_summary": {
+    "n_train_samples": 2500,
+    "n_test_samples": 1000,
+    "n_features": 8,
+    "train_class_distribution": {
+      

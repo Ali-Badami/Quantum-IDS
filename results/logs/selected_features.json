@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "timestamp": "2026-01-16T03:38:07.769209",
+    "pipeline_version": "1.1",
+    "quantum_constraint": "8 qubits",
+    "selection_method": "RandomForest Gini Importance",
+    "data_source": "TEST set (contains both Normal and Attack classes)",
+    "methodology_note": "Train set is 100% Normal for anomaly detection. Feature selection requires both classes to compute discriminative Gini importance. This is valid supervised feature selection identifying attack-discriminative sensors.",
+    "rf_params": {
+      "n_estimators": 100,
+      "max_depth": 20,
+      "min_samples_leaf": 50,
+      "random_state": 42,
+      "class_weight": "balanced"
+    }
+  },
+  "selection_stats": {
+    "total_features": 51,
+    "selected_features": 8,
+    "importance_coverage": 71.99,
+    "training_time_seconds": 0.29
+  },
+  "selected_features": [
+    {
+      "rank": 1,
+      "qubit_index": 0,
+      "name": "AIT501",
+      "importance": 0.18715,
+      "importance_percentage": 26.0
+    },
+    {
+      "rank": 2,
+      "qubit_index": 1,
+      "name": "AIT201",
+      "importance": 0.133054,
+      "importance_percentage": 18.48
+    },
+    {
+      "rank": 3,
+      "qubit_index": 2,
+      "name": "AIT202",
+      "importance": 0.086277,
+      "importance_percentage": 11.98
+    },
+    {
+      "rank": 4,
+      "qubit_index": 3,
+      "name": "AIT504",
+      "importance": 0.078425,
+      "importance_percentage": 10.89
+    },
+    {
+      "rank": 5,
+      "qubit_index": 4,
+      "name": "PIT502",
+      "importance": 0.076128,
+      "importance_percentage": 10.58
+    },
+    {
+      "rank": 6,
+      "qubit_index": 5,
+      "name": "PIT503",
+      "importance": 0.053596,
+      "importance_percentage": 7.45
+    },
+    {
+      "rank": 7,
+      "qubit_index": 6,
+      "name": "MV101",
+      "importance": 0.052846,
+      "importance_percentage": 7.34
+    },
+    {
+      "rank": 8,
+      "qubit_index": 7,
+      "name": "FIT301",
+      "importance": 0.052403,
+      "importance_percentage": 7.28
+    }
+  ],
+  "all_features_ranked": [
+    {
+      "rank": 1,
+      "name": "AIT501",
+      "importance": 0.18715
+    },
+    {
+      "rank": 2,
+      "name": "AIT201",
+      "importance": 0.133054
+    },
+    {
+      "rank": 3,
+      "name": "AIT202",
+      "importance": 0.086277
+    },
+    {
+      "rank": 4,
+      "name": "AIT504",
+      "importance": 0.078425
+    },
+    {
+      "rank": 5,
+      "name": "PIT502",
+      "importance": 0.076128
+    },
+    {
+      "rank": 6,
+      "name": "PIT503",
+      "importance": 0.053596
+    },
+    {
+      "rank": 7,
+      "name": "MV101",
+      "importance": 0.052846
+    },
+    {
+      "rank": 8,
+      "name": "FIT301",
+      "importance": 0.052403
+    },
+    {
+      "rank": 9,
+      "name": "AIT402",
+      "importance": 0.048083
+    },
+    {
+      "rank": 10,
+      "name": "MV201",
+      "importance": 0.044928
+    },
+    {
+      "rank": 11,
+      "name": "LIT401",
+      "importance": 0.025805
+    },
+    {
+      "rank": 12,
+      "name": "FIT502",
+      "importance": 0.022912
+    },
+    {
+      "rank": 13,
+      "name": "FIT601",
+      "importance": 0.018834
+    },
+    {
+      "rank": 14,
+      "name": "PIT501",
+      "importance": 0.017445
+    },
+    {
+      "rank": 15,
+      "name": "FIT503",
+      "importance": 0.015344
+    },
+    {
+      "rank": 16,
+      "name": "UV401",
+      "importance": 0.013885
+    },
+    {
+      "rank": 17,
+      "name": "AIT502",
+      "importance": 0.011283
+    },
+    {
+      "rank": 18,
+      "name": "FIT504",
+      "importance": 0.009745
+    },
+    {
+      "rank": 19,
+      "name": "P501",
+      "importance": 0.009351
+    },
+    {
+      "rank": 20,
+      "name": "FIT401",
+      "importance": 0.00685
+    },
+    {
+      "rank": 21,
+      "name": "FIT501",
+      "importance": 0.006593
+    },
+    {
+      "rank": 22,
+      "name": "AIT401",
+      "importance": 0.006045
+    },
+    {
+      "rank": 23,
+      "name": "AIT503",
+      "importance": 0.004832
+    },
+    {
+      "rank": 24,
+      "name": "AIT203",
+      "importance": 0.004264
+    },
+    {
+      "rank": 25,
+      "name": "LIT101",
+      "importance": 0.003997
+    },
+    {
+      "rank": 26,
+      "name": "FIT201",
+      "importance": 0.00312
+    },
+    {
+      "rank": 27,
+      "name": "DPIT301",
+      "importance": 0.001441
+    },
+    {
+      "rank": 28,
+      "name": "LIT301",
+      "importance": 0.00119
+    },
+    {
+      "rank": 29,
+      "name": "MV304",
+      "importance": 0.00081
+    },
+    {
+      "rank": 30,
+      "name": "P101",
+      "importance": 0.000692
+    },
+    {
+      "rank": 31,
+      "name": "FIT101",
+      "importance": 0.000616
+    },
+    {
+      "rank": 32,
+      "name": "P102",
+      "importance": 0.000615
+    },
+    {
+      "rank": 33,
+      "name": "P203",
+      "importance": 0.000427
+    },
+    {
+      "rank": 34,
+      "name": "P205",
+      "importance": 0.000339
+    },
+    {
+      "rank": 35,
+      "name": "P302",
+      "importance": 0.00033
+    },
+    {
+      "rank": 36,
+      "name": "MV303",
+      "importance": 0.000205
+    },
+    {
+      "rank": 37,
+      "name": "MV301",
+      "importance": 0.000117
+    },
+    {
+      "rank": 38,
+      "name": "MV302",
+      "importance": 2.2e-05
+    },
+    {
+      "rank": 39,
+      "name": "P602",
+      "importance": 1e-06
+    },
+    {
+      "rank": 40,
+      "name": "P201",
+      "importance": 0.0
+    },
+    {
+      "rank": 41,
+      "name": "P202",
+      "importance": 0.0
+    },
+    {
+      "rank": 42,
+      "name": "P204",
+      "importance": 0.0
+    },
+    {
+      "rank": 43,
+      "name": "P206",
+      "importance": 0.0
+    },
+    {
+      "rank": 44,
+      "name": "P301",
+      "importance": 0.0
+    },
+    {
+      "rank": 45,
+      "name": "P401",
+      "importance": 0.0
+    },
+    {
+      "rank": 46,
+      "name": "P402",
+      "importance": 0.0
+    },
+    {
+      "rank": 47,
+      "name": "P403",
+      "importance": 0.0
+    },
+    {
+      "rank": 48,
+      "name": "P404",
+      "importance": 0.0
+    },
+    {
+      "rank": 49,
+      "name": "P502",
+      "importance": 0.0
+    },
+    {
+      "rank": 50,
+      "name": "P601",
+      "importance": 0.0
+    },
+    {
+      "rank": 51,
+      "name": "P603",
+      "importance": 0.0
+    }
+  ]
+}
