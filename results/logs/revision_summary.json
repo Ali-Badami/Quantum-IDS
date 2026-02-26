@@ -1,0 +1,142 @@
+{
+  "experiment": "Quantum-IDS_IEEE_Access_R1_Revision",
+  "timestamp": "2026-02-25T21:44:26.193621",
+  "platform": "Google Colab (GPU)",
+  "datasets": {
+    "SWaT": {
+      "train_shape": [
+        1092398,
+        51
+      ],
+      "test_shape": [
+        327721,
+        51
+      ],
+      "n_features_total": 51,
+      "n_features_selected": 8,
+      "selected_features": [
+        "AIT501",
+        "AIT201",
+        "AIT202",
+        "AIT504",
+        "PIT502",
+        "PIT503",
+        "MV101",
+        "FIT301"
+      ]
+    },
+    "HAI": {
+      "train_shape": [
+        1004402,
+        86
+      ],
+      "test_shape": [
+        361200,
+        86
+      ],
+      "n_features_total": 86,
+      "n_features_selected": 8,
+      "selected_features": [
+        "P3_LIT01",
+        "P1_TIT03",
+        "P1_TIT02",
+        "P1_PCV01Z",
+        "P1_FT01",
+        "P1_LCV01Z",
+        "P1_LIT01",
+        "P1_LCV01D"
+      ]
+    }
+  },
+  "quantum_config": {
+    "n_qubits": 8,
+    "feature_map": "ZZFeatureMap",
+    "reps": 2,
+    "entanglement": "linear",
+    "kernel_class": "FidelityStatevectorKernel",
+    "q_train_size": 2500,
+    "q_test_size": 1000
+  },
+  "files_generated": {
+    "processed_data": [
+      "X_train.npy",
+      "y_train.npy",
+      "X_test.npy",
+      "y_test.npy",
+      "scaler.joblib",
+      "feature_names.joblib",
+      "X_train_reduced.npy",
+      "X_test_reduced.npy",
+      "selected_feature_names.joblib",
+      "X_q_train.npy",
+      "y_q_train.npy",
+      "X_q_test.npy",
+      "y_q_test.npy",
+      "gram_matrix_train.npy",
+      "gram_matrix_test.npy"
+    ],
+    "processed_hai": [
+      "HAI_X_train.npy",
+      "HAI_y_train.npy",
+      "HAI_X_test.npy",
+      "HAI_y_test.npy",
+      "hai_scaler.joblib",
+      "hai_feature_names.joblib",
+      "HAI_X_train_reduced.npy",
+      "HAI_X_test_reduced.npy",
+      "hai_selected_feature_names.joblib",
+      "HAI_X_q_train.npy",
+      "HAI_y_q_train.npy",
+      "HAI_X_q_test.npy",
+      "HAI_y_q_test.npy",
+      "gram_matrix_train.npy",
+      "gram_matrix_test.npy"
+    ],
+    "plots": [
+      "hai_feature_importance.pdf",
+      "feature_importance.png",
+      "hai_feature_importance.png",
+      "feature_importance.pdf",
+      "quantum_circuit.png",
+      "quantum_circuit.pdf",
+      "kernel_matrices_heatmap.png",
+      "kernel_matrices_heatmap.pdf",
+      "hai_kernel_matrices_heatmap.png",
+      "hai_kernel_matrices_heatmap.pdf",
+      "roc_curves.png",
+      "roc_curves.pdf",
+      "hai_roc_comparison.png",
+      "hai_roc_comparison.pdf",
+      "confusion_matrices.png",
+      "confusion_matrices.pdf",
+      "hai_confusion_matrices.png",
+      "hai_confusion_matrices.pdf",
+      "ablation_study.png",
+      "ablation_study.pdf",
+      "feature_map_comparison.png",
+      "feature_map_comparison.pdf",
+      "baseline_comparison.png",
+      "baseline_comparison.pdf"
+    ],
+    "logs": [
+      "selected_features.json",
+      "hai_selected_features.json",
+      "final_benchmark.json",
+      "final_robustness_stats.json",
+      "new_baselines.json",
+      "feature_map_ablation.json",
+      "parameter_ablation.json",
+      "paired_t_tests.json",
+      "timing_benchmarks.json"
+    ]
+  },
+  "reviewer_mapping": {
+    "R1.2_stronger_baselines": "Cell 10 - XGBoost, Tuned RBF, Polynomial SVM",
+    "R1.6_feature_map_comparison": "Cell 11 - ZZ vs Z vs Pauli",
+    "R1.9_timing_benchmarks": "Cell 15 - Kernel, training, inference times",
+    "R2.5_ablation_study": "Cells 11-12 - Feature maps + qubits/reps/entanglement",
+    "R2.6_additional_metrics": "Cells 9, 14 - MCC, Kappa, G-Mean, Balanced Acc, FPR",
+    "R3.2_statistical_significance": "Cell 13 - Paired t-tests",
+    "R4.1_figure_quality": "Cell 16 - All figures at 300+ DPI"
+  }
+}

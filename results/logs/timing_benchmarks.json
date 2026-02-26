@@ -1,0 +1,36 @@
+{
+  "experiment": "Timing_Benchmarks",
+  "timestamp": "2026-02-25T21:28:09.145282",
+  "addresses": [
+    "R1.9"
+  ],
+  "platform": "Google Colab",
+  "results": {
+    "SWaT": {
+      "kernel_train_100x100": 0.5453524589538574,
+      "kernel_test_50x100": 0.7194406986236572,
+      "kernel_train_2500x2500_estimated": 340.8452868461609,
+      "kernel_test_1000x2500_estimated": 359.7203493118286,
+      "qsvm_training": 0.04368424415588379,
+      "classical_svm_training": 0.24452710151672363,
+      "qsvm_inference": 0.0063097476959228516,
+      "classical_svm_inference": 0.017951488494873047,
+      "qsvm_per_sample_inference_ms": 0.0063097476959228516,
+      "classical_per_sample_inference_ms": 0.017951488494873047,
+      "single_sample_kernel_eval": 0.44842052459716797
+    },
+    "HAI": {
+      "kernel_train_100x100": 0.5264401435852051,
+      "kernel_test_50x100": 0.7164208889007568,
+      "kernel_train_2500x2500_estimated": 329.0250897407532,
+      "kernel_test_1000x2500_estimated": 358.2104444503784,
+      "qsvm_training": 0.20600390434265137,
+      "classical_svm_training": 0.872230052947998,
+      "qsvm_inference": 0.009013175964355469,
+      "classical_svm_inference": 0.06533265113830566,
+      "qsvm_per_sample_inference_ms": 0.009013175964355469,
+      "classical_per_sample_inference_ms": 0.06533265113830566,
+      "single_sample_kernel_eval": 0.4437696933746338
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "experiment": "QSVM_vs_Classical_SVM_Benchmark",
+  "timestamp": "2026-02-25T20:59:09.758472",
+  "seed": 42,
+  "quantum_config": {
+    "n_qubits": 8,
+    "feature_map": "ZZFeatureMap",
+    "reps": 2,
+    "entanglement": "linear"
+  },
+  "SWaT": {
+    "QSVM": {
+      "accuracy": 0.975,
+      "precision": 0.8321167883211679,
+      "recall": 0.9827586206896551,
+      "f1": 0.9011857707509882,
+      "auc": 0.9935929942268684,
+      "n_support_vectors": "161"
+    },
+    "Classical_RBF": {
+      "accuracy": 0.978,
+      "precision": 0.9196428571428571,
+      "recall": 0.8879310344827587,
+      "f1": 0.9035087719298246,
+      "auc": 0.995104540489936,
+      "n_support_vectors": "387"
+    }
+  },
+  "HAI": {
+    "QSVM": {
+      "accuracy": 0.931,
+      "precision": 0.25,
+      "recall": 0.5454545454545454,
+      "f1": 0.34285714285714286,
+      "auc": 0.8510544953150951,
+      "n_support_vectors": "858"
+    },
+    "Classical_RBF": {
+      "accuracy": 0.827,
+      "precision": 0.11956521739130435,
+      "recall": 0.6666666666666666,
+      "f1": 0.20276497695852536,
+      "auc": 0.7555701795619066,
+      "n_support_vectors": "1478"
+    }
+  }
+}

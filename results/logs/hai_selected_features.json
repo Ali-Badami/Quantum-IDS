@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "dataset": "HAI 22.04 (Hardware-in-the-Loop)",
+    "task": "Feature Selection for Quantum Kernel",
+    "timestamp": "2026-01-16T15:38:59.175843",
+    "n_qubits": 8
+  },
+  "methodology": {
+    "algorithm": "RandomForestClassifier",
+    "n_estimators": 100,
+    "max_depth": 20,
+    "data_source": "Test set (contains both Normal and Attack)",
+    "rationale": "Train set has 0% attacks, cannot compute Gini importance"
+  },
+  "selected_features": [
+    {
+      "qubit": "Q0",
+      "index": 72,
+      "name": "P3_LIT01",
+      "importance": 0.05836591654434569,
+      "importance_pct": 5.836591654434569
+    },
+    {
+      "qubit": "Q1",
+      "index": 42,
+      "name": "P1_TIT02",
+      "importance": 0.03960706307477257,
+      "importance_pct": 3.9607063074772566
+    },
+    {
+      "qubit": "Q2",
+      "index": 43,
+      "name": "P1_TIT03",
+      "importance": 0.03681580731616523,
+      "importance_pct": 3.681580731616523
+    },
+    {
+      "qubit": "Q3",
+      "index": 24,
+      "name": "P1_PCV01Z",
+      "importance": 0.03472735409489275,
+      "importance_pct": 3.4727354094892746
+    },
+    {
+      "qubit": "Q4",
+      "index": 14,
+      "name": "P1_FT01",
+      "importance": 0.03415875663832591,
+      "importance_pct": 3.4158756638325913
+    },
+    {
+      "qubit": "Q5",
+      "index": 21,
+      "name": "P1_LCV01Z",
+      "importance": 0.033623054897474414,
+      "importance_pct": 3.3623054897474414
+    },
+    {
+      "qubit": "Q6",
+      "index": 22,
+      "name": "P1_LIT01",
+      "importance": 0.03295217802878443,
+      "importance_pct": 3.2952178028784433
+    },
+    {
+      "qubit": "Q7",
+      "index": 20,
+      "name": "P1_LCV01D",
+      "importance": 0.03293214760071159,
+      "importance_pct": 3.2932147600711588
+    }
+  ],
+  "statistics": {
+    "total_features": 86,
+    "selected_features": 8,
+    "coverage_pct": 30.31822781954726,
+    "subsample_size": 50000,
+    "training_time_seconds": 0.7381415367126465
+  },
+  "output_files": {
+    "X_train_reduced": "/content/drive/MyDrive/Quantum_Research/02_Processed_Data/HAI/HAI_X_train_reduced.npy",
+    "X_test_reduced": "/content/drive/MyDrive/Quantum_Research/02_Processed_Data/HAI/HAI_X_test_reduced.npy",
+    "selected_features": "/content/drive/MyDrive/Quantum_Research/02_Processed_Data/HAI/hai_selected_feature_names.joblib",
+    "importance_plot": "/content/drive/MyDrive/Quantum_Research/05_Results/Plots/hai_feature_importance.png"
+  }
+}

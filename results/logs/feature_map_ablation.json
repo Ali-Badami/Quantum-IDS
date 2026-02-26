@@ -1,0 +1,70 @@
+{
+  "experiment": "Feature_Map_Ablation",
+  "timestamp": "2026-02-25T21:24:45.808158",
+  "addresses": [
+    "R1.6",
+    "R2.5"
+  ],
+  "ablation_subset_sizes": {
+    "train": 500,
+    "test": 200
+  },
+  "SWaT": {
+    "ZZFeatureMap": {
+      "accuracy": 0.96,
+      "f1": 0.84,
+      "auc": 0.9850159665929746,
+      "mcc": 0.8207411596376707,
+      "precision": 0.7777777777777778,
+      "recall": 0.9130434782608695,
+      "kernel_time": 8.190084218978882
+    },
+    "ZFeatureMap": {
+      "accuracy": 0.96,
+      "f1": 0.84,
+      "auc": 0.9233603537214443,
+      "mcc": 0.8207411596376707,
+      "precision": 0.7777777777777778,
+      "recall": 0.9130434782608695,
+      "kernel_time": 5.633343935012817
+    },
+    "PauliFeatureMap": {
+      "accuracy": 0.96,
+      "f1": 0.84,
+      "auc": 0.9850159665929746,
+      "mcc": 0.8207411596376707,
+      "precision": 0.7777777777777778,
+      "recall": 0.9130434782608695,
+      "kernel_time": 8.256911277770996
+    }
+  },
+  "HAI": {
+    "ZZFeatureMap": {
+      "accuracy": 0.955,
+      "f1": 0.0,
+      "auc": 0.7801628423390081,
+      "mcc": -0.01914047751001127,
+      "precision": 0.0,
+      "recall": 0.0,
+      "kernel_time": 8.216323852539062
+    },
+    "ZFeatureMap": {
+      "accuracy": 0.855,
+      "f1": 0.21621621621621623,
+      "auc": 0.8438193930421909,
+      "mcc": 0.22477046760949007,
+      "precision": 0.13333333333333333,
+      "recall": 0.5714285714285714,
+      "kernel_time": 5.749418020248413
+    },
+    "PauliFeatureMap": {
+      "accuracy": 0.955,
+      "f1": 0.0,
+      "auc": 0.7801628423390081,
+      "mcc": -0.01914047751001127,
+      "precision": 0.0,
+      "recall": 0.0,
+      "kernel_time": 8.355774879455566
+    }
+  }
+}

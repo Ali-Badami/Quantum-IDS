@@ -1,0 +1,248 @@
+{
+  "dataset": "SWaT",
+  "timestamp": "2026-02-25T20:42:44.776302",
+  "method": "RandomForest_Gini_Importance",
+  "n_features_total": 51,
+  "n_features_selected": 8,
+  "coverage": 0.7198797632193067,
+  "selected_features": [
+    {
+      "name": "AIT501",
+      "importance": 0.18714992300987518
+    },
+    {
+      "name": "AIT201",
+      "importance": 0.13305424890291792
+    },
+    {
+      "name": "AIT202",
+      "importance": 0.08627692198806906
+    },
+    {
+      "name": "AIT504",
+      "importance": 0.07842458263067226
+    },
+    {
+      "name": "PIT502",
+      "importance": 0.07612838865569893
+    },
+    {
+      "name": "PIT503",
+      "importance": 0.05359636412313776
+    },
+    {
+      "name": "MV101",
+      "importance": 0.052846325185045166
+    },
+    {
+      "name": "FIT301",
+      "importance": 0.05240300872389052
+    }
+  ],
+  "all_features_ranked": [
+    {
+      "name": "AIT501",
+      "importance": 0.18714992300987518
+    },
+    {
+      "name": "AIT201",
+      "importance": 0.13305424890291792
+    },
+    {
+      "name": "AIT202",
+      "importance": 0.08627692198806906
+    },
+    {
+      "name": "AIT504",
+      "importance": 0.07842458263067226
+    },
+    {
+      "name": "PIT502",
+      "importance": 0.07612838865569893
+    },
+    {
+      "name": "PIT503",
+      "importance": 0.05359636412313776
+    },
+    {
+      "name": "MV101",
+      "importance": 0.052846325185045166
+    },
+    {
+      "name": "FIT301",
+      "importance": 0.05240300872389052
+    },
+    {
+      "name": "AIT402",
+      "importance": 0.04808303802349903
+    },
+    {
+      "name": "MV201",
+      "importance": 0.044927715069053145
+    },
+    {
+      "name": "LIT401",
+      "importance": 0.025804889795485744
+    },
+    {
+      "name": "FIT502",
+      "importance": 0.022911738034828537
+    },
+    {
+      "name": "FIT601",
+      "importance": 0.018834293804664046
+    },
+    {
+      "name": "PIT501",
+      "importance": 0.01744491408044338
+    },
+    {
+      "name": "FIT503",
+      "importance": 0.015343893804088722
+    },
+    {
+      "name": "UV401",
+      "importance": 0.013885410308048452
+    },
+    {
+      "name": "AIT502",
+      "importance": 0.011282848393832761
+    },
+    {
+      "name": "FIT504",
+      "importance": 0.009744924159388175
+    },
+    {
+      "name": "P501",
+      "importance": 0.009351038894829102
+    },
+    {
+      "name": "FIT401",
+      "importance": 0.006849979493711201
+    },
+    {
+      "name": "FIT501",
+      "importance": 0.006592853013541911
+    },
+    {
+      "name": "AIT401",
+      "importance": 0.006044961423989276
+    },
+    {
+      "name": "AIT503",
+      "importance": 0.0048316261807110385
+    },
+    {
+      "name": "AIT203",
+      "importance": 0.004263787601096165
+    },
+    {
+      "name": "LIT101",
+      "importance": 0.003997498185496056
+    },
+    {
+      "name": "FIT201",
+      "importance": 0.003119648229260033
+    },
+    {
+      "name": "DPIT301",
+      "importance": 0.0014409629392489911
+    },
+    {
+      "name": "LIT301",
+      "importance": 0.0011902009649382456
+    },
+    {
+      "name": "MV304",
+      "importance": 0.0008098044421113548
+    },
+    {
+      "name": "P101",
+      "importance": 0.0006921775898907241
+    },
+    {
+      "name": "FIT101",
+      "importance": 0.000616064847381791
+    },
+    {
+      "name": "P102",
+      "importance": 0.000614828361828936
+    },
+    {
+      "name": "P203",
+      "importance": 0.0004269804421012187
+    },
+    {
+      "name": "P205",
+      "importance": 0.0003390316637980851
+    },
+    {
+      "name": "P302",
+      "importance": 0.00032975749551750774
+    },
+    {
+      "name": "MV303",
+      "importance": 0.0002052425299547069
+    },
+    {
+      "name": "MV301",
+      "importance": 0.00011710828198253027
+    },
+    {
+      "name": "MV302",
+      "importance": 2.2435207045290625e-05
+    },
+    {
+      "name": "P602",
+      "importance": 5.835189270281386e-07
+    },
+    {
+      "name": "P201",
+      "importance": 0.0
+    },
+    {
+      "name": "P202",
+      "importance": 0.0
+    },
+    {
+      "name": "P204",
+      "importance": 0.0
+    },
+    {
+      "name": "P206",
+      "importance": 0.0
+    },
+    {
+      "name": "P301",
+      "importance": 0.0
+    },
+    {
+      "name": "P401",
+      "importance": 0.0
+    },
+    {
+      "name": "P402",
+      "importance": 0.0
+    },
+    {
+      "name": "P403",
+      "importance": 0.0
+    },
+    {
+      "name": "P404",
+      "importance": 0.0
+    },
+    {
+      "name": "P502",
+      "importance": 0.0
+    },
+    {
+      "name": "P601",
+      "importance": 0.0
+    },
+    {
+      "name": "P603",
+      "importance": 0.0
+    }
+  ]
+}
